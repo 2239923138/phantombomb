@@ -1,0 +1,35 @@
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.nar
+*.log
+*.tmp
+
+# --- IDE ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Environment ---
+.env
+*.local
+
+# --- NeoForge / Minecraft specific ---
+run/
+crash-reports/
+logs/
